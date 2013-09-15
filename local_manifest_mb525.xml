@@ -37,6 +37,6 @@
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
  <!--   <project path="system/vold" name="Quarx2k/android_system_vold" revision="mr1-staging" /> -->
   <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
-  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan"  revision="cm-10.1"  />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" />
 
 </manifest>

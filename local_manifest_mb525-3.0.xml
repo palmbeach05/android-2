@@ -12,6 +12,7 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
+  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="cm10.1-3.0" />
   <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" revision="cm10.2-3.0" />

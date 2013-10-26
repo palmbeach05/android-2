@@ -11,6 +11,7 @@
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" /> 
 
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
@@ -23,6 +24,6 @@
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="p-android-omap3-3.0" />
   <project path="system/core" name="Quarx2k/android_system_core" />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" />
-
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" />
 
 </manifest>

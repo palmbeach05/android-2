@@ -11,7 +11,7 @@
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
- <!--   <remove-project name="CyanogenMod/android_bootable_recovery" />   -->
+  <remove-project name="CyanogenMod/android_bootable_recovery" /> 
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
  <!--   <remove-project name="CyanogenMod/android_system_vold" /> -->
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
@@ -22,7 +22,7 @@
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean"/>
- <!--   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.5" /> -->
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" /> 
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="jellybean"/>

@@ -2,11 +2,13 @@
 <manifest>
 
   <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
-  <remote  name="github" fetch="git://github.com/" />
-
-  <!-- CM removals -->
-  <remove-project name="platform/frameworks/base" />
+  <remote  name="github"  fetch="ssh://git@github.com" />
+ 
+ <!-- AOSP removals -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
@@ -14,30 +16,34 @@
   <remove-project name="platform/hardware/ti/omap3" />
   <remove-project name="platform/bootable/recovery" /> 
   <remove-project name="platform/frameworks/opt/telephony" />
- <!--  <remove-project name="CyanogenMod/android_system_vold" /> -->
- <!--  <remove-project name="CyanogenMod/android_packages_apps_Settings" />  -->
   <remove-project name="platform/hardware/ti/wlan"/>
+  <remove-project name="platform/hardware/ti/wpan"/>
 
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" />
-  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" remote="github" />
-  <project path="frameworks/native" name="Quarx2k/android_frameworks_native"  remote="github"/>
-  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" />
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean" remote="github"/>
-  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" remote="github" />
-  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" remote="github" /> 
-  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" remote="github" />
-  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="jellybean" remote="github" />
-  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" revision="cm10.2-2.6.32" remote="github"/>
-  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526" revision="cm10.2-2.6.32" remote="github" />
-  <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520" remote="github"/>
-  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean" remote="github"/>
-  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master"  remote="github"/>
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="AeroKernel" remote="github"/>
-  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy"  remote="github"/>
-  <project path="system/core" name="Quarx2k/android_system_core" remote="github" />
-  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="github" />
-  <!-- <project path="system/vold" name="Quarx2k/android_system_vold" revision="mr1-staging" /> -->
-  <!-- <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" /> -->
-  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm10.2" remote="github"  />
+  <project path="build" name="Quarx2k/platform_build" remote="github" revision="kitkat" />
+  <project path="bionic" name="Quarx2k/android_bionic" remote="github" revision="kitkat" />
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" remote="github" revision="kitkat"  />
+  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" remote="github" revision="kitkat"  />
+  <project path="hardware/ril" name="Quarx2k/android_hardware_ril"  remote="github" revision="kitkat"  />
+  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.7"  />
+  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="github" revision="jellybean"  /> 
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread"  />
+  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean"  />
+  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" remote="github" revision="kitkat-aosp" />
+  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526" remote="github" revision="kitkat-aosp"  />
+   <!-- <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520" revision="kitkat-aosp"  />   -->
+  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
+  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master"  />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="AeroKernel" />
+  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="kitkat"  />
+  <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="kitkat"  />
+  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="github" revision="kitkat"  />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github"  revision="cm-10.2"   />
+    <!-- <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github"  revision="cm-10.2"  />  -->
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github"  revision="cm-11.0"   />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github"  revision="cm-11.0"   /> 
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"   /> 
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" /> 
 
 </manifest>

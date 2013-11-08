@@ -40,5 +40,7 @@
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"   /> 
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" /> 
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
 
 </manifest>

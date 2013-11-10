@@ -47,6 +47,6 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware" name="Quarx2k/android_hardware_libhardware"  remote="github" revision="kitkat"  />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github"  revision="cm-11.0"   />
-  <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" remote="github"  revision="kitkat"   />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="github"  revision="cm-11.0"   />
 
 </manifest>

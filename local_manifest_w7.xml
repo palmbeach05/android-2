@@ -13,5 +13,6 @@
   <project name="Quarx2k/android_frameworks_av"  path="frameworks/av"/>
   <project name="Quarx2k/proprietary_vendor_lge"  path="vendor/lge"/>
   <project path="build" name="Quarx2k/android_build"  revision="cm-11.0-new"/>
+  <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" />
 
 </manifest>

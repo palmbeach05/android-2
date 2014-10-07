@@ -13,5 +13,6 @@
   <project name="Blechd0se/kernel-moto-g" path="kernel/motorola/kernel-moto-g" remote="github" revision="cm-11.0-mr2" />
   <project name="Quarx2k/proprietary_vendor_motorola"  path="vendor/motorola"/>
   <project path="build" name="Quarx2k/android_build"  revision="cm-11.0-new"/>
+  <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" />
 
 </manifest>

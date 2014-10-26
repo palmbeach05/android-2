@@ -2,8 +2,7 @@
 <manifest>
   <!-- CM removals -->
   <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_packages_services_Telephony"/>
-
+  
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" />
@@ -15,6 +14,5 @@
   <project name="Quarx2k/proprietary_vendor_motorola"  path="vendor/motorola"/>
   <project path="build" name="Quarx2k/android_build"  revision="cm-11.0-new"/>
   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" />
-  <project path="packages/services/Telephony" name="Quarx2k/android_packages_services_Telephony" />
 
 </manifest>

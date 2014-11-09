@@ -12,7 +12,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-10.1"
+  <default revision="refs/tags/cm-10.1.3"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -121,8 +121,6 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
@@ -322,7 +320,6 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />

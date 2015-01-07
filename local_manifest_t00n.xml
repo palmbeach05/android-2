@@ -1,3 +1,5 @@
+  <remove-project name="CyanogenMod/android_frameworks_av" /> 
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
   <!-- Asus -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />

@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
   <remove-project name="CyanogenMod/android_frameworks_av" /> 
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" remote="github" revision="cm-11.0"/>
@@ -8,3 +10,4 @@
   <project name="Quarx2k/android_device_asus_pf500kl" path="device/asus/t00n" remote="github" />
   <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github"/>
   <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"/>
+</manifest>

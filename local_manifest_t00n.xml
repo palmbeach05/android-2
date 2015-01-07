@@ -1,0 +1,6 @@
+  <!-- Asus -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
+  <project name="Quarx2k/android_device_asus_pf500kl" path="device/asus/t00n" remote="github" />
+  <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github"/>
+  <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"/>

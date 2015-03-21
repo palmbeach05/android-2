@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_frameworks_av" /> 
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" remote="github" revision="cm-12.0"/>
 
   <!-- Asus -->

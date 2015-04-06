@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <!-- CM removals -->
+   <!--  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />  
+
+  <project path="hudson" name="CyanogenMod/hudson" revision="master" />-->
+   <!-- Motorola Defy/Bravo
+  <project path="build" name="Quarx2k/android_build" />
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  /> -->
+  <!--  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean"  /> 
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread"  /> -->
+
+  <!-- Asus -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="Quarx2k/android_device_asus_pf500kl" path="device/asus/t00n" remote="github" revision="cm-12.1"/>
+  <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
+  <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"  remote="github"  revision="cm-12.1" />
+
+  <!-- LGE -->
+   <project name="Quarx2k/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="cm-12.1" /> 
+   <project name="Quarx2k/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="cm-12.1" />
+   <project name="Quarx2k/proprietary_vendor_lge"  remote="github"  path="vendor/lge" revision="cm-12.1" />
+
+   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" remote="github" revision="cm-12.0"/>
+
+</manifest>

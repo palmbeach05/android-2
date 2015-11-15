@@ -19,6 +19,7 @@
   <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
   <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"  remote="github"  revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
 
   <!-- LGE -->
    <project name="Quarx2k/android_device_lg_w7ds" path="device/lge/w7" remote="github" revision="cm-12.1" /> 

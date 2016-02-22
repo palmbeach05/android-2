@@ -18,9 +18,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <remote  name="quarx2k"
-           fetch="ssh://git@quarx2k.ru:38822" />
-
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la/" />
 
@@ -31,18 +28,18 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="Quarx2k/android_device_asus_pf500kl" path="device/asus/t00n" remote="github" />
   <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github"  />
-  <!--  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />  -->
-  <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"  remote="github"  />
+  <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"  remote="github" clone-depth="1" />
 
   <project name="CyanogenMod/android_external_sony_boringssl-compat"  path="external/sony/boringssl-compat"  remote="github"  />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices"  path="vendor/qcom/opensource/dataservices"  remote="github"  />
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
 
   <!-- LGE -->
+  <!--
    <project name="Quarx2k/android_device_lg_w7ds" path="device/lge/w7" remote="github" /> 
    <project name="Quarx2k/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" />
    <project name="Quarx2k/proprietary_vendor_lge"  remote="github"  path="vendor/lge" />
-
+-->
    <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" remote="github" revision="cm-12.0"/>
 
 </manifest>

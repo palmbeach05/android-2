@@ -27,7 +27,7 @@
   <!-- Asus -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="Quarx2k/android_device_asus_pf500kl" path="device/asus/t00n" remote="github" />
-  <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github"  />
+  <project name="Quarx2k/android_kernel_asus_padfone_s" path="kernel/asus/msm8974" remote="github" revision="cm-13.0-new" />
   <project name="Quarx2k/proprietary_vendor_asus"  path="vendor/asus"  remote="github" clone-depth="1" />
 
   <project name="CyanogenMod/android_external_sony_boringssl-compat"  path="external/sony/boringssl-compat"  remote="github"  />

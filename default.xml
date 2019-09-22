@@ -237,8 +237,6 @@
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
   <project path="external/ppp" name="LineageOS/android_external_ppp" />
-  <project path="external/proguard" name="LineageOS/android_external_proguard" groups="pdk-java" />
-  <project path="external/protobuf" name="LineageOS/android_external_protobuf" groups="pdk" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
   <project path="external/qrngd" name="LineageOS/android_external_qrngd" />
   <project path="external/regex-re2" name="LineageOS/android_external_regex-re2" />

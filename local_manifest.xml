@@ -4,49 +4,37 @@
   <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
 
   <!-- Lineage OS removals -->
-  <remove-project name="LineageOS/android_bionic" />
-  <remove-project name="LineageOS/android_build" />
-  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_bootable_recovery" /> 
   <remove-project name="LineageOS/android_frameworks_base" />
-  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_packages_services_Telephony"/>
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_hardware_libhardware_legacy" />
   <remove-project name="LineageOS/android_hardware_ril" />
-  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_hardware_ti_omap3" />
-  <remove-project name="LineageOS/android_bootable_recovery" /> 
-  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <remove-project name="LineageOS/android_hardware_ti_wlan"/>
-  <remove-project name="LineageOS/android_packages_services_Telephony"/>
-  <remove-project name="LineageOS/android_external_qemu"/>
-  <remove-project name="LineageOS/android_external_qemu-pc-bios"/>
-  <remove-project name="LineageOS/android_packages_apps_VideoEditor"/>
   <remove-project name="LineageOS/android_packages_apps_InCallUI"/>
-  <remove-project name="LineageOS/android_art"/> 
-  <remove-project name="LineageOS/android_frameworks_rs"/> 
-  <remove-project name="LineageOS/android_packages_apps_LockClock"/> 
+  <remove-project name="LineageOS/android_hardware_ti_wlan"/>
+  
 
-  <project path="bionic" name="Quarx2k/android_bionic"  />
+  <project path="bionic" name="motorola-defy-lineageos/android_bionic"  />
   <project path="build" name="Quarx2k/android_build" />
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
+  <project path="frameworks/av" name="motorola-defy-lineageos/android_frameworks_av"  />
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
-  <project path="hardware/ril" name="Quarx2k/android_hardware_ril"  />
-  <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4"  />
+  <project path="hardware/ril" name="motorola-defy-lineageos/android_hardware_ril"  />
+  <project path="hardware/ti/omap3" name="motorola-defy-lineageos/android_hardware_ti_omap3-compat" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean"  /> 
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread"  />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola"  />
-  <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" />
-  <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" revision="kitkat" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master"  />
-  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="motorola-defy-lineageos/android_hardware_libhardware_legacy" />
   <project path="system/core" name="Quarx2k/android_system_core"  />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
-  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
-  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm-11.0"   />
+  <project path="packages/apps/Settings" name="motorola-defy-lineageos/android_packages_apps_Settings" />
+  <project path="hardware/ti/wlan" name="motorola-defy-lineageos/android_hardware_ti_wlan" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="Quarx2k/android_packages_services_Telephony" />
-  <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="motorola-defy-lineageos/android_packages_apps_InCallUI" />
   <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" />
   <project path="art" name="Quarx2k/android_art" />
   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" />

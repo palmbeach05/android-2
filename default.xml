@@ -265,26 +265,6 @@
   <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/tagsoup" name="LineageOS/android_external_tagsoup" />
   <project path="external/tcpdump" name="LineageOS/android_external_tcpdump" />
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
-  <project path="external/tinyxml" name="LineageOS/android_external_tinyxml" groups="pdk" />
-  <project path="external/tinyxml2" name="LineageOS/android_external_tinyxml2" groups="pdk" />
-  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
-  <project path="external/v8" name="LineageOS/android_external_v8" />
-  <project path="external/valgrind" name="LineageOS/android_external_valgrind" groups="pdk" />
-  <project path="external/vim" name="LineageOS/android_external_vim" />
-  <project path="external/webp" name="LineageOS/android_external_webp" />
-  <project path="external/webrtc" name="LineageOS/android_external_webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
-  <project path="external/wpa_supplicant_8_ti" name="LineageOS/android_external_wpa_supplicant_8_ti" />
-  <project path="external/xmlwriter" name="LineageOS/android_external_xmlwriter" />
-  <project path="external/xmp_toolkit" name="LineageOS/android_external_xmp_toolkit" />
-  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
-  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
-  <project path="external/zxing" name="LineageOS/android_external_zxing" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />

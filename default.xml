@@ -198,26 +198,6 @@
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" />
-  <project path="external/libxml2" name="LineageOS/android_external_libxml2" />
-  <project path="external/libxslt" name="LineageOS/android_external_libxslt" />
-  <project path="external/libyuv" name="LineageOS/android_external_libyuv" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="LineageOS/android_external_linux-tools-perf" />
-  <project path="external/littlemock" name="LineageOS/android_external_littlemock" />
-  <project path="external/llvm" name="LineageOS/android_external_llvm" groups="pdk" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/lsof" name="LineageOS/android_external_lsof" />
-  <project path="external/lzo" name="LineageOS/android_external_lzo" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/markdown" name="LineageOS/android_external_markdown" />
-  <project path="external/mdnsresponder" name="LineageOS/android_external_mdnsresponder" groups="pdk" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
-  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/mockwebserver" name="LineageOS/android_external_mockwebserver" />
-  <project path="external/mp4parser" name="LineageOS/android_external_mp4parser" />
-  <project path="external/mtpd" name="LineageOS/android_external_mtpd" />
-  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/safe-iop" name="LineageOS/android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />

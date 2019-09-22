@@ -221,8 +221,6 @@
   <project path="external/netcat" name="LineageOS/android_external_netcat" />
   <project path="external/netperf" name="LineageOS/android_external_netperf" />
   <project path="external/neven" name="LineageOS/android_external_neven" />
-  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/nist-sip" name="LineageOS/android_external_nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/oauth" name="LineageOS/android_external_oauth" />

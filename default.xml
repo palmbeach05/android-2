@@ -105,7 +105,6 @@
   <project path="external/clang" name="LineageOS/android_external_clang" groups="pdk" />
   <project path="external/compiler-rt" name="LineageOS/android_external_compiler-rt" groups="pdk" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-  <project path="external/crda" name="LineageOS/android_external_crda" />
   <project path="external/curl" name="LineageOS/android_external_curl" />
   <project path="external/dexmaker" name="LineageOS/android_external_dexmaker" />
   <project path="external/dhcpcd" name="LineageOS/android_external_dhcpcd" />
@@ -243,8 +242,6 @@
   <project path="external/proguard" name="LineageOS/android_external_proguard" groups="pdk-java" />
   <project path="external/protobuf" name="LineageOS/android_external_protobuf" groups="pdk" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
-  <project path="external/qemu" name="LineageOS/android_external_qemu" />
-  <project path="external/qemu-pc-bios" name="LineageOS/android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="LineageOS/android_external_qrngd" />
   <project path="external/regex-re2" name="LineageOS/android_external_regex-re2" />
   <project path="external/replicaisland" name="LineageOS/android_external_replicaisland" />
@@ -377,7 +374,6 @@
   <project path="packages/apps/SmartCardService" name="LineageOS/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="LineageOS/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
   <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Torch" name="LineageOS/android_packages_apps_Torch" />

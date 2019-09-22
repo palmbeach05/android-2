@@ -354,7 +354,6 @@
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="libcore" name="LineageOS/android_libcore" />
   <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/Apollo" name="LineageOS/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" />

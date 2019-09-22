@@ -216,55 +216,11 @@
   <project path="external/mockwebserver" name="LineageOS/android_external_mockwebserver" />
   <project path="external/mp4parser" name="LineageOS/android_external_mp4parser" />
   <project path="external/mtpd" name="LineageOS/android_external_mtpd" />
-  <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/naver-fonts" name="LineageOS/android_external_naver-fonts" />
-  <project path="external/netcat" name="LineageOS/android_external_netcat" />
-  <project path="external/netperf" name="LineageOS/android_external_netperf" />
-  <project path="external/neven" name="LineageOS/android_external_neven" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/oauth" name="LineageOS/android_external_oauth" />
-  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/okhttp" name="LineageOS/android_external_okhttp" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/opencv" name="LineageOS/android_external_opencv" />
-  <project path="external/openfst" name="LineageOS/android_external_openfst" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" />
-  <project path="external/openssl" name="LineageOS/android_external_openssl" groups="pdk" />
-  <project path="external/oprofile" name="LineageOS/android_external_oprofile" />
-  <project path="external/pciutils" name="LineageOS/android_external_pciutils" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" />
-  <project path="external/ppp" name="LineageOS/android_external_ppp" />
-  <project path="external/qrngd" name="LineageOS/android_external_qrngd" />
-  <project path="external/regex-re2" name="LineageOS/android_external_regex-re2" />
-  <project path="external/replicaisland" name="LineageOS/android_external_replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/safe-iop" name="LineageOS/android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
-  <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="LineageOS/android_external_skia" />
-  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/smali" name="LineageOS/android_external_smali" />
-  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
-  <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
-  <project path="external/spongycastle" name="LineageOS/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
-  <project path="external/square/dagger" name="LineageOS/android_external_square_dagger" />
-  <project path="external/square/javawriter" name="LineageOS/android_external_square_javawriter" />
-  <project path="external/srec" name="LineageOS/android_external_srec" />
-  <project path="external/srtp" name="LineageOS/android_external_srtp" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
-  <project path="external/stlport" name="LineageOS/android_external_stlport" groups="pdk" />
-  <project path="external/strace" name="LineageOS/android_external_strace" />
-  <project path="external/stressapptest" name="LineageOS/android_external_stressapptest" />
-  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/tagsoup" name="LineageOS/android_external_tagsoup" />
-  <project path="external/tcpdump" name="LineageOS/android_external_tcpdump" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />

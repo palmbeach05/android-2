@@ -498,7 +498,4 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
 
-  <!-- add modified repo -->
-  <include name="local_manifest.xml" />
-
 </manifest>
